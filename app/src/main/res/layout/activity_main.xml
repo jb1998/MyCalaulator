@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.FitWindowsLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.jaxbot.mycalaulator.MainActivity"
+    android:orientation="vertical"
+
+    >
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/box2"
+
+        android:layout_weight="3"
+        >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/editText2" />
+
+        <Button
+        android:text="X"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/box3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="7"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="4"
+            >
+
+            <Button
+                android:text="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/one"
+                android:layout_weight="4"/>
+
+            <Button
+                android:text="4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/four"
+                android:layout_weight="4"/>
+
+            <Button
+                android:text="7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/seven"
+                android:layout_weight="4"/>
+
+            <Button
+                android:text="0"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/zero"
+                android:layout_weight="4"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="4"
+            >
+
+            <Button
+                android:text="2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/two"
+                android:layout_weight="4" />
+
+            <Button
+                android:text="5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/five"
+                android:layout_weight="4"/>
+
+            <Button
+                android:text="8"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/eight"
+                android:layout_weight="4"/>
+
+            <Button
+                android:text="-"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/button10"
+                android:layout_weight="4"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+
+
+            >
+
+            <Button
+                android:text="3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/three"
+                android:layout_weight="4"/>
+
+            <Button
+                android:text="6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/six"
+                android:layout_weight="4"/>
+
+            <Button
+                android:text="9"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/nine"
+                android:layout_weight="4"/>
+
+            <Button
+                android:text="="
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/button14"
+                android:layout_weight="4"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+
+
+            >
+
+            <Button
+                android:text="+"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/button20"
+                android:layout_weight="4"/>
+
+            <Button
+                android:text="-"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/button21"
+                android:layout_weight="4"/>
+
+            <Button
+                android:text="*"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/button22"
+                android:layout_weight="4"/>
+
+            <Button
+                android:text="/"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/button23"
+                android:layout_weight="4"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.FitWindowsLinearLayout>
